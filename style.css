@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    position: relative;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.left {
+    width: 300px;
+    height: 250px;
+    margin: 50px auto 50px 50px;
+    background: linear-gradient(green, dodgerblue);
+}
+
+.right {
+    width: 300px;
+    height: 250px;
+    margin: 50px 50px 50px auto;
+    background: linear-gradient(crimson, pink);
+    transition: 0.5s ;
+}
